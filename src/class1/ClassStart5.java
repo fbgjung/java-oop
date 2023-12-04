@@ -14,9 +14,9 @@ public class ClassStart5 {
         //배열 선언
         Student[] students = {student1, student2};
 
-        //for문 적용
-        for (int i = 0; i < students.length; i++) {
-            System.out.println("이름:" + students[i].name + " 나이:" + students[i].age + " 성적:" + students[i].grade);
+        //for문 적용 - iter
+        for (Student s : students) {
+            System.out.println("이름:" + s.name + " 나이:" + s.age + " 성적:" + s.grade);
         }
     }
 }
