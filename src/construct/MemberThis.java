@@ -6,3 +6,4 @@ public class MemberThis {
         nameField = nameParameter;
     }
 }
+
