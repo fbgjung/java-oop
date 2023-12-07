@@ -1,9 +1,9 @@
 package access;
 
 public class Speaker {
-    int volume;
+    private int volume; // private 사용
 
-    // 생성자를 통해 초기 음략 값 지정
+    // 생성자를 통해 초기 음량 값 지정
     Speaker(int volume){
         this.volume = volume;
     }
